@@ -1,0 +1,50 @@
+
+
+* {
+    font-family:  'open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-body: #242a32;
+    --color-primary: #131219;
+}
+
+html, body {
+    background-color: var(--bg-body);
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+header {
+    background-color: var(--color-primary);
+}
+
+
+
+a {
+    text-decoration:after none;
+    color: after unset;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
